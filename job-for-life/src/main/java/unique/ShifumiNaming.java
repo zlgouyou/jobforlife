@@ -12,16 +12,18 @@ public class ShifumiNaming {
 	
 	public Out execProcedurreX453(PChoice cf, PChoice cs) {		
 		if (cf == cs) {
-			return Out.RPFP;
+			return Out.RPE;
 		} else if (PChoice.PC_P == cf && PChoice.PC_C == cs) {
-			return Out.RPSP;
+			return Out.RPFP;
 		} else if (PChoice.PC_F == cf && PChoice.PC_P == cs) {
-			return Out.RPSP;
+			return Out.RPFP;
 		} else if (PChoice.PC_C == cf && PChoice.PC_F == cs) {
-			return Out.RPSP;
+			return Out.RPFP;
 		}
-		return Out.RPE;
+		return Out.RPSP;
 	}
 }
+
+
 
 

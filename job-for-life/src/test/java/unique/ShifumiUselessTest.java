@@ -6,13 +6,13 @@ import org.hamcrest.CoreMatchers;
 import org.junit.Assert;
 import org.junit.Test;
 
-import unique.Shifumi.Choix;
-import unique.Shifumi.Resultat;
+import unique.ShifumiUseless.Choix;
+import unique.ShifumiUseless.Resultat;
 
 
-public class ShifumiTest {
+public class ShifumiUselessTest {
 
-	Shifumi shifumi = new Shifumi();
+	ShifumiUseless shifumi = new ShifumiUseless();
 	
 	@Test
 	public void egaliteSiLesDeuxChoixSontCiseaux() {

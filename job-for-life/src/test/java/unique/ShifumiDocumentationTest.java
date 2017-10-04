@@ -6,13 +6,14 @@ import org.hamcrest.CoreMatchers;
 import org.junit.Assert;
 import org.junit.Test;
 
-import unique.Shifumi.Choix;
-import unique.Shifumi.Resultat;
+import unique.ShifumiDocumentation.Choix;
+import unique.ShifumiDocumentation.Resultat;
 
 
-public class ShifumiTest {
 
-	Shifumi shifumi = new Shifumi();
+public class ShifumiDocumentationTest {
+
+	ShifumiDocumentation shifumi = new ShifumiDocumentation();
 	
 	@Test
 	public void egaliteSiLesDeuxChoixSontCiseaux() {
@@ -77,5 +78,6 @@ public class ShifumiTest {
 		
 		Assert.assertThat(resultat, CoreMatchers.equalTo(Resultat.JOUEUR2));
 	}
+
 
 }
